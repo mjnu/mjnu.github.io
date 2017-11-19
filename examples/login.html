@@ -126,7 +126,11 @@
     <script>
         $(document).ready(function(){
             $("#myButton").click(function(){
-                location.href=window.location.protocol + "//" + window.location.host + "/examples/temp.html"
+                alert("hello");
+                alert(window.location.protocol);
+                alert(window.location.host);
+                alert(window.location.protocol + "//" + window.location.host + "/examples/temp.html");
+                location.href=window.location.protocol + "//" + window.location.host + "/examples/temp.html";
             });
         });
         </script>
